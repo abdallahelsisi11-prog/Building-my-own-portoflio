@@ -1,0 +1,252 @@
+.nav-item>.nav-link:hover{
+    border-bottom: 2px solid red;
+}
+#red{
+    text-align: center;
+}
+#blue{
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    padding-left:25px;
+    padding-bottom:18px;
+    padding-top:18px;
+   
+}
+#yellow{
+    margin-left:16px;
+}
+h2{
+     padding-top:20px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 40px;
+    flex-wrap: wrap;
+  }
+
+  .hero-text {
+    flex: 1 1 420px;
+  }
+
+  .hero-eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    color: #d97757;
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+  }
+
+  .hero-text h1 span {
+    color: #d97757;
+  }
+
+  .hero-text p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 32px;
+    max-width: 520px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 16px;
+  }
+
+  .btn-primary, .btn-secondary {
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .btn-primary {
+    background: #d97757;
+    color: #fff;
+  }
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(217,119,87,0.35);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: #1a1a1a;
+    border: 2px solid #ddd;
+  }
+  .btn-secondary:hover {
+    border-color: #1a1a1a;
+  }
+
+  .hero-image {
+    flex: 0 0 320px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+  }
+
+  @media (max-width: 700px) {
+    .hero { padding: 60px 24px; text-align: center; justify-content: center; }
+    .hero-text p { margin-left: auto; margin-right: auto; }
+    .hero-buttons { justify-content: center; }
+  }
+  .card:hover{
+    background-color:rgba(35,150, 59,0.1)
+}
+.image img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin:10px auto;
+}
+.hero-image-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.badge-float {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  background: #fff;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  animation: floatY 3s ease-in-out infinite;
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+a:hover{
+    color:red;
+    padding:30px;
+}
+a{
+    padding:15px;
+}
+li{
+    padding-left:20px;
+     font-weight: bold;
+     margin-left:30px;
+}
+.list1{
+    padding-top:20px;
+    
+}
+
+.form-label{
+   color:chocolate;
+}
+
+.form-check-label{
+    color:chocolate;
+}
+#ronald,
+#graham,
+#kennedy {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+#ronald a,
+#graham a,
+#kennedy a {
+  color: #3b82f6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#ronald svg,
+#row svg,
+
+#graham svg,
+#kennedy svg,
+#ronald img,
+#row img,
+#graham img,
+#kennedy img {
+  width: 20px;
+  height: 20px;
+}
+
+
+.zambahola {
+  position: relative;
+  background-image: url('Viber.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+
+.overlay-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;             
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+  z-index: 0;
+}
+
+
+.overlay-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;              
+  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+  z-index: 0;
+}
+
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+span{
+  font-size:30px;
+}
+.text-center{
+  font-size:30px;
+}
